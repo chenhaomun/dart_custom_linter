@@ -1,0 +1,11 @@
+name: hard_plugin_loader
+description: A plugin loader
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.3.3
+
+dependencies:
+  hard_plugin:
+    path: /Users/haomun/Desktop/dev/flutter_custom_lints/hard_plugin

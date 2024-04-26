@@ -1,0 +1,84 @@
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 Plugin _AmendModelSuffixFix threw while analyzing /Users/haomun/Desktop/dev/flutter_custom_lints/dart_app/lib/dart_app.dart:
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 RangeError (end): Invalid value: Not in inclusive range 0..4: -1
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #0      RangeError.checkValidRange (dart:core/errors.dart:364:9)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #1      _StringBase.substring (dart:core-patch/string_patch.dart:413:27)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #2      _AmendModelSuffixFix.run.<anonymous closure> (package:easy_plugin/src/rules/amend_model_suffix.dart:48:42)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #3      _rootRunUnary (dart:async/zone.dart:1415:13)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #4      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #5      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #6      LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:165:5)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #7      ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #8      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #9      CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #10     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #11     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #12     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #13     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #14     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #15     DartFix.startUp.<anonymous closure> (package:custom_lint_core/src/fixes.dart:81:17)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #16     _rootRun (dart:async/zone.dart:1399:13)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #17     _CustomZone.run (dart:async/zone.dart:1301:19)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #18     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #19     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #20     _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:715:5)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #21     Future.wait.<anonymous closure> (dart:async/future.dart:518:21)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #22     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:575:35)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #23     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:564:18)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 #24     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:25:27.015506
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 Plugin _AmendModelSuffixFix threw while analyzing /Users/haomun/Desktop/dev/flutter_custom_lints/dart_app/lib/dart_app.dart:
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 RangeError (end): Invalid value: Not in inclusive range 0..4: -1
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #0      RangeError.checkValidRange (dart:core/errors.dart:364:9)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #1      _StringBase.substring (dart:core-patch/string_patch.dart:413:27)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #2      _AmendModelSuffixFix.run.<anonymous closure> (package:easy_plugin/src/rules/amend_model_suffix.dart:48:42)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #3      _rootRunUnary (dart:async/zone.dart:1415:13)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #4      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #5      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #6      LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:165:5)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #7      ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #8      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #9      CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #10     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #11     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #12     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #13     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #14     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #15     DartFix.startUp.<anonymous closure> (package:custom_lint_core/src/fixes.dart:81:17)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #16     _rootRun (dart:async/zone.dart:1399:13)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #17     _CustomZone.run (dart:async/zone.dart:1301:19)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #18     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #19     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #20     _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:715:5)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #21     Future.wait.<anonymous closure> (dart:async/future.dart:518:21)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #22     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:575:35)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #23     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:564:18)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 #24     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449 <asynchronous suspension>
+[_AmendModelSuffixFix] 2024-04-24T17:33:45.350449
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
